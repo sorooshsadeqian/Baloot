@@ -1,0 +1,158 @@
+.commodity {
+    width: 100%;
+
+    max-width: 1140px;
+
+    display: flex;
+    flex-direction: column;
+
+    margin: 0 auto;
+
+    margin-top: 24px;
+}
+
+.commodity__info {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.commodity__image {
+    width: 50%;
+    min-width: 50%;
+}
+
+.commodity__details {
+    margin-left: 10px;
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+
+    gap: 12px;
+}
+
+.commodity__name {
+    font-size: 42px;
+    color: #593C1C;
+}
+
+.commodity__subdetails {
+    display: flex;
+    flex-direction: row;
+
+    justify-content: space-between;
+    align-items: center;
+}
+
+.commodity__count {
+    color: #C82525;
+    font-size: 20px;
+}
+
+.commodity__rating {
+    display: flex;
+    flex-direction: row;
+
+    align-items: center;
+    justify-content: space-between;
+}
+
+.commodity__rating-star {
+    max-height: 32px;
+}
+
+.commodity__rating {
+    color: #593C1C;
+    font-size: 20px;
+}
+
+.commodity__rating-count {
+    color: #909090;
+    font-size: 14px;
+}
+
+.commodity__provider {
+    display: flex;
+    flex-direction: row;
+}
+
+.commodity__categories-title {
+    color: #593C1C;
+    font-size: 20px;
+}
+
+.commodity__category {
+    color: #593C1C;
+    font-size: 20px;
+}
+
+.commodity__actions {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    background-color: white;
+
+    box-shadow: 0px 4px 4px 0px #D0D0D040;
+
+    height: 100px;
+}
+
+.commodity__action {
+    background-color: white;
+    
+    border: 1px solid #593C1C;
+    color: #593C1C;
+
+    height: 60%;
+    width: 150px;
+
+    margin-right: 20px;
+}
+
+.commodity__price {
+    color: #593C1C;
+    font-size: 30px;
+    margin-left: 40px;
+}
+
+.commodity__rate {
+    display: flex;
+    flex-direction: row;
+
+    margin-top: 10px;
+    justify-content: space-between;
+    align-items: center;
+
+    margin: 0 20px;
+}
+
+.commodity__rate-stars {
+    display: flex;
+    flex-direction: column;
+}
+
+.commodity__rate-title {
+    font-size: 20px;
+}
+
+.commodity__stars {
+    display: flex;
+    flex-direction: row;
+
+    justify-content: left;
+    margin-left: 5px;
+}
+
+.commodity__stars-image {
+    max-height: 50px;
+    margin-left: -5px;
+}
+
+.commodity__rate-button {
+    color: #F7F0E9;
+    background-color: #593C1C;
+
+    height: 60%;
+}

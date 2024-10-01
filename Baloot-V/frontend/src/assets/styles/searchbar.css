@@ -1,0 +1,32 @@
+.searchbar {
+    margin: 0 auto;
+    display: flex;
+    align-items: stretch;
+    background-color: #F7F0E9;
+    border-radius: 8px;
+
+    min-width: 30%;
+}
+
+.searchbar__icon {
+    width: 24px;
+    height: 24px;
+    margin-right: 8px;
+
+    align-self: center;
+}
+
+.searchbar__controller {
+    border: none;
+    background: transparent;
+    outline: none;
+    flex-grow: 1;
+
+    margin: 4px 8px;
+}
+
+@media only screen and (max-width: 1000px) {
+    .searchbar {
+        display: none;
+    }   
+}

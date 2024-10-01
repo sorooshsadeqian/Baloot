@@ -1,0 +1,16 @@
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 100%;
+    height: 32px;
+
+    margin-top: 24px;
+    background-color: #593C1C;
+}
+
+.footer__copyright {
+    color: white;
+    text-align: center;
+}

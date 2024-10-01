@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="./assets/styles/reset.css" type="text/css" />
+    <link rel="stylesheet" href="./assets/styles/button.css" type="text/css" />
+    <link rel="stylesheet" href="./assets/styles/index.css" type="text/css" />
+    <link rel="stylesheet" href="./assets/styles/header.css" type="text/css" />
+    <link rel="stylesheet" href="./assets/styles/searchbar.css" type="text/css" />
+    <link rel="stylesheet" href="./assets/styles/dropdown.css" type="text/css" />
+    <link rel="stylesheet" href="./assets/styles/content.css" type="text/css" />
+    <link rel="stylesheet" href="./assets/styles/card.css" type="text/css" />
+    <link rel="stylesheet" href="./assets/styles/footer.css" type="text/css" />
+
+    <title>Baloot!</title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="logo">
+            <img src="./assets/images/logo.png" alt="Baloot Logo" class="logo__image" />
+            <p class="logo__title">Baloot</p>
+        </div>
+
+        <div class="searchbar">
+            <div class="dropdown">
+                <p class="dropdown__label" role="button">
+                    <span class="dropdown__label-text">name</span>
+                    <img class="dropdown__label-arrow" src="./assets/images/arrow.png" alt="" />
+                </p>
+                <ul class="dropdown__content">
+                    <li class="dropdown__item">name</li>
+                    <li class="dropdown__item">category</li>
+                </ul>
+            </div>
+            <input class="searchbar__controller" type="text" placeholder="search your product ..." />
+            <img class="searchbar__icon" src="./assets/images/search.png" alt="" />
+        </div>
+
+        <nav class="header__actions">
+            <!-- <p class="header__username">#username</p> -->
+            <!-- <button class="button header__cart">
+                <span>Cart</span>
+                <span class="header__cart-count">0</span>
+            </button> -->
+            <!-- <button class="button header__cart header__cart--fill">
+                <span>Cart</span>
+                <span class="header__cart-count">5</span>
+            </button> -->
+
+            <button class="button">Register</button>
+            <button class="button">Login</button>
+        </nav>
+    </header>
+
+    <section class="content">
+        <div class="filters">
+            <div class="filters__left">
+                <p class="filters__title">Available Commodities</p>
+                <input id="available-commodities" type="checkbox" class="filters__controller"/>
+                <label class="filters__label" for="available-commodities">
+                    <span class="filters__label-circle" />
+                </label>
+            </div>
+
+
+            <div class="filters__right">
+                <p class="filters__sort">Sort by:</p>
+                <button class="button button-filter">name</button>
+                <button class="button button-filter button-filter--active">price</button>
+            </div>
+        </div>
+
+        <div class="cards">
+            <div class="card">
+                <h2 class="card__title">Huawei nova 9</h2>
+                <p class="card__count">1 left in stock</p>
+                <img src="./assets/images/phone.png" alt="" class="card__image"/>
+                <div class="card__actions">
+                    <p class="card__price">
+                        300$
+                    </p>
+                    <button class="button card__action">
+                        add to cart
+                    </button>
+                </div>
+            </div>
+            <div class="card">
+                <h2 class="card__title">Huawei nova 9</h2>
+                <p class="card__count">1 left in stock</p>
+                <img src="./assets/images/phone.png" alt="" class="card__image"/>
+                <div class="card__actions">
+                    <p class="card__price">
+                        300$
+                    </p>
+                    <button class="button card__action">
+                        add to cart
+                    </button>
+                </div>
+            </div>
+            <div class="card">
+                <h2 class="card__title">Huawei nova 9</h2>
+                <p class="card__count">1 left in stock</p>
+                <img src="./assets/images/phone.png" alt="" class="card__image"/>
+                <div class="card__actions">
+                    <p class="card__price">
+                        300$
+                    </p>
+                    <button class="button card__action">
+                        add to cart
+                    </button>
+                </div>
+            </div>
+            <div class="card">
+                <h2 class="card__title">Huawei nova 9</h2>
+                <p class="card__count">1 left in stock</p>
+                <img src="./assets/images/phone.png" alt="" class="card__image"/>
+                <div class="card__actions">
+                    <p class="card__price">
+                        300$
+                    </p>
+                    <button class="button card__action">
+                        add to cart
+                    </button>
+                </div>
+            </div>
+            <div class="card">
+                <h2 class="card__title">Huawei nova 9</h2>
+                <p class="card__count">1 left in stock</p>
+                <img src="./assets/images/phone.png" alt="" class="card__image"/>
+                <div class="card__actions">
+                    <p class="card__price">
+                        300$
+                    </p>
+                    <button class="button card__action">
+                        add to cart
+                    </button>
+                </div>
+            </div>
+            <div class="card">
+                <h2 class="card__title">Huawei nova 9</h2>
+                <p class="card__count">1 left in stock</p>
+                <img src="./assets/images/phone.png" alt="" class="card__image"/>
+                <div class="card__actions">
+                    <p class="card__price">
+                        300$
+                    </p>
+                    <button class="button card__action">
+                        add to cart
+                    </button>
+                </div>
+            </div>
+            <div class="card">
+                <h2 class="card__title">Huawei nova 9</h2>
+                <p class="card__count">1 left in stock</p>
+                <img src="./assets/images/phone.png" alt="" class="card__image"/>
+                <div class="card__actions">
+                    <p class="card__price">
+                        300$
+                    </p>
+                    <button class="button card__action">
+                        add to cart
+                    </button>
+                </div>
+            </div>
+            <div class="card">
+                <h2 class="card__title">Huawei nova 9</h2>
+                <p class="card__count">1 left in stock</p>
+                <img src="./assets/images/phone.png" alt="" class="card__image"/>
+                <div class="card__actions">
+                    <p class="card__price">
+                        300$
+                    </p>
+                    <button class="button card__action">
+                        add to cart
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <p class="footer__copyright">2023 @UT</p>
+    </footer>
+
+</body>
+</html>

@@ -1,0 +1,352 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;&display=swap');
+/*common css*/
+*{
+    margin: 0;padding: 0;box-sizing: border-box;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+
+
+
+
+
+/*header*/
+.header{
+    display: flex;
+    justify-content: space-between;
+    background-color: #ffffff;
+    box-shadow:0 4px 4px rgba(0, 0, 0, 0.179);
+}
+
+.right-stuff,.logo{
+    display: flex;
+    justify-content:center;
+ align-items: center;
+}
+.logo{  display: flex;
+    justify-content:space-around;
+margin-left: 10px;
+color: #A97B47
+;
+}
+.logo img{
+  margin-right: 8px;
+    height: 50px;
+    width: 50px;
+ 
+}
+.marshal{
+    margin: 1.5rem;
+}
+.cartbtn{
+    
+    display: flex;
+    justify-content:space-around;
+    width: 80px;
+    height:30px;
+    margin: 1rem;
+    background: #593C1C;
+    border-radius: 5px;
+    color: white;
+    text-align: center;
+    align-items: center;
+    cursor: pointer;}
+.cartbtn button{
+    background: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+    }
+.marshal{
+font-size:18px;
+color: #593C1C;
+
+}
+
+/*first*/
+.first{
+    display: flex;
+    justify-content:space-around;
+    padding:2em;
+    margin: 5rem;
+    background: #ffffff;
+    box-shadow:0 4px 4px rgba(0, 0, 0, 0.179);
+    border-radius: 10px;
+
+}
+.rightdetail{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    align-content: center;
+    margin-left: 2rem;
+}
+.rightdetail .h2,.rightdetail button{
+margin: .2em;
+}
+
+.dollar{
+    font-size: 80px;
+    font-weight: 900;
+    letter-spacing: 2px;
+    color:  #593C1C;
+    margin-bottom:5px;
+  
+}
+.leftdetail{
+    margin-right: 2rem;
+}
+.leftdetail h3{
+margin-bottom: 8px;
+color:  #593C1C;
+font-size: 14px;
+letter-spacing: .790px;
+
+}
+.leftdetail span svg{
+ width: 10px; height: 10px;
+ margin-right: 2px;
+    }
+
+    .amount-btn{
+padding: .5em 12em;   
+background: none;
+border: 1px solid rgba(0, 0, 0, 0.519);
+border-radius: 10px;
+color: #909090;
+font-weight: 600;
+box-shadow: 0px 4px 4px rgba(208, 208, 208, 0.25);
+ }
+
+    .add-btn{
+        padding: .5em 10.4em;   
+        border-radius: 10px;
+        background:  #593C1C;
+        border: none;
+        color: #ffffff;
+        box-shadow: 0px 4px 4px rgba(208, 208, 208, 0.25);
+        font-weight: 600;
+
+    }
+
+    /*second*/
+    .second-cart{
+        display: flex;
+        flex-direction: column;
+        margin: 5rem;
+      
+    }
+    .d-flex{
+        display: flex;
+        
+    }
+    .d-flex h3 {
+        margin-left: 10px;
+        color: #593C1C ;
+        font-size: 25px;
+        text-align: center;
+        align-items: center;
+        font: inter;
+    }
+    .rowtex{
+        margin-top: 2rem;
+        display: flex;
+        justify-content: space-around;
+       
+        padding: 1.5em .1em;
+        background-color: #ffffff;
+        box-shadow: 0px 4px 4px rgba(132, 130, 130, 0.25);
+border-radius: 15px;
+    }
+
+    .rowamount{
+        margin-top: 2rem;
+        display: flex;
+        justify-content: space-around;
+        padding: 1.5em .1em;
+        background-color: #ffffff;
+        box-shadow: 0px 4px 4px rgba(132, 130, 130, 0.25);
+border-radius: 15px; align-items: center;
+
+    }
+    
+    .rowamount input{
+        height:  20px;width:30px;
+        border: none;
+    }.amoutinput{
+        padding:.5rem 1rem;
+        border-radius: 10px;
+        border: 1px solid rgb(0, 0, 0);
+    }
+   
+    .mob{
+        height: 60px;width: 60px;
+    }
+    .add,.delete{
+        background: none;
+        border: none;
+    }
+    .add{margin-right: 12px;}
+    .hcolor{
+color: #909090
+;
+
+    }
+
+
+    .yellow{
+        color: #FFC700        ;
+
+    }
+    .color-red{
+        color: #C82525
+        ;
+    }
+    .play{
+        display: flex;
+        align-items: center;
+        align-content: center;
+        justify-content: center;
+        
+    }
+    .play-btn{
+        
+        padding: .5em 12em;   
+        border-radius: 10px;
+        background:  #593C1C;
+        border: none;
+        color: #ffffff;
+        box-shadow: 0px 4px 4px rgba(208, 208, 208, 0.25);
+        font-weight: 600;
+    }
+    /*responsiv/*/
+    @media screen and (max-width: 980px) {
+       
+        .rightdetail,.rightdetail {
+            margin: .2em;
+            }
+            .dollar{
+                font-size: 40px;
+                font-weight: 900;
+                letter-spacing: 2px;
+                color:  #593C1C;
+                margin-bottom:5px;
+                overflow: hidden;
+              
+            }
+            .leftdetail{
+                margin-right:0;
+            }
+            .amount-btn{
+                padding: .5em 6.8em;   
+              
+                 }
+                
+                    .add-btn{
+                        padding: .5em 5em;   
+                       
+                    }
+                    .amoutinput{
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        padding:.2rem .5rem;
+                        border-radius: 10px;
+                        border: 1px solid rgb(0, 0, 0);
+                    }  
+                
+                 
+      }
+
+      @media screen and (max-width: 800px) {
+      
+      .first{
+        display: flex;
+        flex-direction: column;
+      }
+     
+       .second-cart{
+        display: flex;
+        flex-direction: row;   justify-content: space-around; margin: 1rem;
+        
+    }
+    .grid{
+        display: grid;
+        grid-template-columns: repeat(2,150px);
+        grid-template-rows: 80vh;
+        gap: 1rem;
+    }
+    .rowamount{
+        height: 75vh;
+    }
+     .rowtex,.rowamount{
+        display: flex;
+        flex-direction: column;
+        grid-template-columns: 3;
+        position: relative;
+        right: 50px;
+       
+       
+
+      }
+     .rowtex h3{
+        margin-bottom: 1.5rem;
+     }
+      .play-btn{
+        
+        padding: .5em 10em;   
+     
+    }
+  
+      }
+      @media screen and (max-width: 650px) {
+      
+        .marshal{
+            visibility: hidden;
+        }
+        .cartbtn{
+    
+            margin: 0;
+        }
+        .logo{
+            position: relative;
+         left: 20px;
+        }
+        .right-stuff{
+            position: relative;
+right: 20px;
+        }
+       /*/*/
+      
+        .dollar{
+            font-size: 20px;
+          margin-top: .5rem;
+          
+        }
+        
+        .amount-btn{
+            padding: .5em 4em;   
+          
+             }
+            
+                .add-btn{
+                    padding: .5em 3em; 
+                    width: 100%;  
+                   
+                } 
+                .d-flex{
+                    position: relative;
+                    left: 50px;
+                }
+                .leftdetail h3{
+                 
+                    font-size: 12px;
+                    
+                    
+                    }
+    }
